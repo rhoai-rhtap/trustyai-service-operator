@@ -6,7 +6,7 @@ require (
 	github.com/kserve/kserve v0.11.0
 	github.com/onsi/ginkgo/v2 v2.11.0
 	github.com/onsi/gomega v1.27.10
-	github.com/openshift/api v0.0.0-20200713203337-b2494ecb17dd
+	github.com/openshift/api 50c3975e874f
 	github.com/prometheus-operator/prometheus-operator/pkg/apis/monitoring v0.64.1
 	k8s.io/api v0.26.4
 	k8s.io/apimachinery v0.26.4
