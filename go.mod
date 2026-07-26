@@ -14,6 +14,8 @@ require (
 	sigs.k8s.io/controller-runtime v0.14.6
 )
 
+require gopkg.in/yaml.v2 v2.4.0 // indirect
+
 require (
 	cloud.google.com/go v0.110.2 // indirect
 	cloud.google.com/go/compute v1.20.1 // indirect
@@ -86,7 +88,6 @@ require (
 	google.golang.org/grpc v1.56.3 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/apiextensions-apiserver v0.26.4 // indirect
 	k8s.io/component-base v0.26.4 // indirect
