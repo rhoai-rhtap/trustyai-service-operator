@@ -20,7 +20,7 @@ require (
 	cloud.google.com/go/compute/metadata v0.2.3 // indirect
 	cloud.google.com/go/iam v1.0.1 // indirect
 	cloud.google.com/go/storage v1.30.1 // indirect
-	github.com/aws/aws-sdk-go v1.44.264 // indirect
+	github.com/aws/aws-sdk-go v1.55.8 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blendle/zapdriver v1.3.1 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
@@ -44,7 +44,7 @@ require (
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
 	github.com/google/s2a-go v0.1.4 // indirect
-	github.com/google/uuid v1.3.0 
+	github.com/google/uuid v1.3.0
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
 	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
 	github.com/googleapis/google-cloud-go-testing v0.0.0-20210719221736-1c9a4c676720 // indirect
@@ -92,7 +92,7 @@ require (
 	k8s.io/component-base v0.26.4 // indirect
 	k8s.io/klog/v2 v2.100.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20230515203736-54b630e78af5 // indirect
-	k8s.io/utils v0.0.0-20230505201702-9f6742963106 
+	k8s.io/utils v0.0.0-20230505201702-9f6742963106
 	knative.dev/networking v0.0.0-20230511122402-33636d99d870 // indirect
 	knative.dev/pkg v0.0.0-20230502134655-db8a35330281 // indirect
 	knative.dev/serving v0.37.1 // indirect
