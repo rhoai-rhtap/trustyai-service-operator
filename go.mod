@@ -1,6 +1,6 @@
 module github.com/trustyai-explainability/trustyai-service-operator
 
-go 1.19
+go 1.25.0
 
 require (
 	github.com/kserve/kserve v0.11.0
@@ -13,6 +13,8 @@ require (
 	k8s.io/client-go v0.26.4
 	sigs.k8s.io/controller-runtime v0.14.6
 )
+
+require github.com/go-openapi/swag/jsonname v0.26.0 // indirect
 
 require (
 	cloud.google.com/go v0.110.2 // indirect
@@ -31,8 +33,8 @@ require (
 	github.com/fsnotify/fsnotify v1.6.0 // indirect
 	github.com/go-logr/logr v1.2.4 // indirect
 	github.com/go-logr/zapr v1.2.4 // indirect
-	github.com/go-openapi/jsonpointer v0.19.6 // indirect
-	github.com/go-openapi/jsonreference v0.20.2 // indirect
+	github.com/go-openapi/jsonpointer v0.23.1 // indirect
+	github.com/go-openapi/jsonreference v0.21.6 // indirect
 	github.com/go-openapi/swag v0.22.3 // indirect
 	github.com/go-task/slim-sprig v0.0.0-20230315185526-52ccab3ef572 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -44,7 +46,7 @@ require (
 	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/pprof v0.0.0-20210720184732-4bb14d4b1be1 // indirect
 	github.com/google/s2a-go v0.1.4 // indirect
-	github.com/google/uuid v1.3.0 
+	github.com/google/uuid v1.3.0
 	github.com/googleapis/enterprise-certificate-proxy v0.2.3 // indirect
 	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
 	github.com/googleapis/google-cloud-go-testing v0.0.0-20210719221736-1c9a4c676720 // indirect
@@ -92,7 +94,7 @@ require (
 	k8s.io/component-base v0.26.4 // indirect
 	k8s.io/klog/v2 v2.100.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20230515203736-54b630e78af5 // indirect
-	k8s.io/utils v0.0.0-20230505201702-9f6742963106 
+	k8s.io/utils v0.0.0-20230505201702-9f6742963106
 	knative.dev/networking v0.0.0-20230511122402-33636d99d870 // indirect
 	knative.dev/pkg v0.0.0-20230502134655-db8a35330281 // indirect
 	knative.dev/serving v0.37.1 // indirect
